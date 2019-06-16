@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, Link } from "@reach/router"
+
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-import NavBar from './nav-bar/NavBar';
-import MainContent from "./main/MainContent";
-import Footer from "./footer/Footer";
+import MainPage from "./MainPage/Main Page";
+import ShopPage from "./ShopPage/ShopePage";
 
 
 
-ReactDOM.render(<NavBar />, document.getElementById('header' ));
-ReactDOM.render(<MainContent />, document.getElementById('content' ));
-ReactDOM.render(<Footer />, document.getElementById('footer' ));
-
+ReactDOM.render((
+    <Router>
+        <MainPage path = '/' />
+        <ShopPage path = '/shop' />
+    </Router>
+), document.getElementById('root'));
 
 
 

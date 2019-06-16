@@ -9,9 +9,12 @@ class Footer extends Component{
 
     render() {
         return(
-            <div id = 'footer-manu' >
-                <FooterManu />
-            </div>
+            <footer id = 'footer'>
+                <div id = 'footer-manu' >
+                    <FooterManu />
+                </div>
+            </footer>
+
         );
     }
 

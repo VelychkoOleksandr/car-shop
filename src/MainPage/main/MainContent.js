@@ -11,10 +11,13 @@ class MainContent extends Component{
 
     render() {
         return(
-            <div id = 'main-content' >
-                <CarSlider />
-                <GetNewCar />
-            </div>
+            <main id = 'content' >
+                <div id = 'main-content' >
+                    <CarSlider />
+                    <GetNewCar />
+                </div>
+            </main>
+
         );
     }
 }

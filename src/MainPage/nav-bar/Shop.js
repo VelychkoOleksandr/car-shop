@@ -2,7 +2,7 @@ import React from 'react';
 
 const Shop = ( props ) => (
     <div id = 'shop'>
-        <a href = '#' >SHOP</a>
+        <a href = '/shop' >SHOP</a>
     </div>
 );
 
