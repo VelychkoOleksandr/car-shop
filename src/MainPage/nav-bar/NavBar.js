@@ -13,13 +13,15 @@ class NavBar extends Component {
 
     render() {
         return (
-            <div id = "nav-bar">
-                <Logo  />
-                <ModelManu />
-                <Shop />
-                <Login />
-                <Manu />
-            </div>
+            <header id = 'header' >
+                <div id = "nav-bar">
+                    <Logo  />
+                    <ModelManu />
+                    <Shop />
+                    <Login />
+                    <Manu />
+                </div>
+            </header>
         );
     }
 }
