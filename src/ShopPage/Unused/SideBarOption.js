@@ -11,9 +11,9 @@ class SideBarOption extends Component{
     render() {
         return(
             <div id = 'side-bar'>
-                <OptionModel />
-                <OptionCost />
-                <SearchButton />
+                <OptionModel modelFilter = { this.props.modelFilter } />
+                <OptionCost costFilterMin = { this.props.costFilterMin }  costFilterMax = { this.props.costFilterMax } />
+                <SearchButton searchHandler = { this.props.filter } />
             </div>
         );
     }

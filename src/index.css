@@ -327,31 +327,13 @@ body {
   display: flex;
   width: 100%;
   margin-top: 40px;
-}
-
-#shop-page #content #side-bar {
-  width: 15%;
-  text-align: center;
-  padding-left: 3%;
-}
-
-#shop-page #content #side-bar label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-
-#shop-page #content #side-bar label input {
-  margin-right: 5px;
-}
-
-#shop-page #content #side-bar #option-cost label {
-  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #shop-page #content #search-results {
-  width: 70%;
+  width: 90%;
   margin-left: 3%;
   display: -webkit-box;
   display: -ms-flexbox;

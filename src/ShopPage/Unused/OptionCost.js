@@ -10,7 +10,7 @@ class OptionCost  extends  Component{
             <div id = 'option-cost'>
                 <h2>Cost</h2>
 
-                <label for="cost-range-min">From:
+                <label htmlFor ="cost-range-min">From:
                     <input type="number" name="cost-range" id="cost-range-min" />
                 </label>
 
